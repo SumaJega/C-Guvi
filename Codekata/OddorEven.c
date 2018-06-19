@@ -5,7 +5,7 @@ int main()
 	scanf("%d",&num);
 	if(num%2==0)
 		printf("Even");
-	else if(num==0)
+	else if(num%2!=0)
 		printf("Odd");
 	else
 		printf("Invalid Input");
