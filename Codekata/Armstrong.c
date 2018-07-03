@@ -11,7 +11,7 @@ int main()
         originalNumber /= 10;
     }
     if(result == number)
-        printf("yes";
+        printf("yes");
     else
         printf("no");
     return 0;
