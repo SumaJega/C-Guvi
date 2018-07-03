@@ -4,7 +4,7 @@ int main()
     int number, originalNumber, remainder, result = 0;
     scanf("%d", &number);
     originalNumber = number;
-    while (originalNumber != 0)
+    while (originalNumber<=100000)
     {
         remainder = originalNumber%10;
         result += remainder*remainder*remainder;
