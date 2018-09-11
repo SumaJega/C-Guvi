@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 #include<math.h>
-main()
+int main()
 {
 int n,t=0,r,q;
 scanf("%d",&n);
