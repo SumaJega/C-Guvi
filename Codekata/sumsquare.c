@@ -14,5 +14,4 @@ q=q/10;
 }
 while(q%10!=0);
 printf("%d",t);
-getch();
-}
+return 0;}
